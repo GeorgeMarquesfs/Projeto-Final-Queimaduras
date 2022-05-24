@@ -1,0 +1,209 @@
+body{
+    margin:0;
+    padding:0;
+    color: #242424;
+    font-family: sans-serif;
+    background-color: #f3dbde;
+  }
+  
+  h1,h2{
+    font-weight: 900;
+    color: #000;
+  }
+  
+  main{
+    display: block;
+    background-color: #FFF;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  section.module p{
+    margin-bottom: 40px;
+  }
+  
+  section.module:last-child{
+    margin-bottom: 0;
+  }
+  
+  section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  section.module.content{
+   padding: 40px 0;
+   background: #f3dbde;
+   text-align: center; 
+  }
+  
+  section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  
+  section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  }
+  
+  
+  section.module.parallax-1{
+    background-image: url("https://images5.alphacoders.com/307/307292.jpg");
+  }
+  
+  section.module.parallax-3{
+    background-image: url("https://media-manager.noticiasaominuto.com/1920/naom_61f8efc44285c.jpg");
+  }
+  
+  section.module.parallax h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+  }
+  
+  main.cards-queimaduras {
+      display: flex;
+      padding: 32px;
+      background-color: #f3dbde ;
+  }
+  
+  .titulo-tipo-queimadura{
+      color: #dd1b2b
+  }
+  main.cards-queimaduras section.tipo-queimadura {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background: #f3dbde;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      max-height: 468px;
+      margin-left: 32px;
+  }
+  
+  main.cards-queimaduras span{
+      color: black;
+      text-align: justify;
+  }
+  
+  main.cards-queimaduras section.tipo-queimadura button {
+      padding: 0.5rem 1rem;
+      text-transform: uppercase;
+      border-radius: 32px;
+      border: 0;
+      cursor: pointer;
+      font-size: 80%;
+      font-weight: 500;
+      color: #fff;
+      margin-bottom: 16px 0;
+      margin-top: 16px;
+  }
+  
+  .tipo-queimadura button:hover{
+      transition: 0.5s;
+      opacity: 0.60;
+  }
+
+  main.cards-queimaduras section.tipo-queimadura button {
+      background: linear-gradient(to right, #f70909, #f78686);
+  }
+  main.cards-queimaduras section.tipo-queimadura button {
+      background: linear-gradient(to right, #f70909, #f78686);
+  }
+  main.cards-queimaduras section.ctipo-queimadura button {
+      background: linear-gradient(to right, #f70909, #f78686);
+  }
+  
+  main.cards-queimaduras section.tipo-queimadura {
+      box-shadow: 0 2px 6px firebrick;
+  }
+  main.cards-queimaduras section.tipo-queimadura {
+      box-shadow: 0 2px 6px firebrick;
+  }
+  main.cards-queimaduras section.tipo-queimadura {
+      box-shadow: 0 2px 6px firebrick;
+  }
+  
+  .titulo-queimadura {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      background-color: #f3dbde;
+      
+  }
+  
+  h1 {
+      text-align: center;
+      margin: 60px 0 40px ;
+      font-size: 1.5em;
+      color: #dd1b2b;
+      font-family: sans-serif;
+      text-transform: uppercase;
+  }
+  
+  .lista-item {
+      background: white;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-shadow: 0 2px 6px firebrick;
+      
+  }
+  
+  .titulo {
+      cursor: pointer;
+      padding: 10px;
+      font-size: 1.4em;
+      font-family: monospace;
+      color: #dd1b2b;
+  }
+  
+  .titulo::before {
+      height: 12px;
+      width: 24px;
+      margin-right: 10px;
+  }
+  
+  .conteudo {
+      padding: 10px;
+      color: #6B7C93;
+      font-family: Helvetica;
+      font-size: .875em;
+      display: none;
+  }
+  
+  .input-check {
+      display: none;
+  }
+  
+  .input-check:checked + .g1 .conteudo {
+      display: block;
+  }
